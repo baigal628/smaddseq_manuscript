@@ -51,10 +51,14 @@ uncalled4 align \
     -p 8 \
     --eventalign-out chrom_pass.sorted.tsv \
     --eventalign-flags print-read-names,signal-index,samples \
-    --pore-model dna_r9.4.1_400bps_6mer
 ```
 
 ## Notes
 - Ensure that Dorado and Samtools are properly installed before running the pipeline.
 - Modify the paths to match your data storage and reference genome locations.
 - The pipeline is optimized for Nanopore sequencing with R9.4.1 flow cells.
+
+## Citation
+Bai G, Dhillon N, Felton C, Meissner B, Saint-John B, Shelansky R, Meyerson E, Hrabeta-Robinson E, Hodjat B, Boeger H, Brooks AN. **SMAdd-seq: probing chromatin accessibility with small molecule DNA intercalation and nanopore sequencing.** Nucleic Acids Res. 2025 Jul 19;53(14):gkaf671. doi: 10.1093/nar/gkaf671. PMID: 40682816; PMCID: PMC12276009.
+
+
